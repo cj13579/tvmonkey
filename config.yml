@@ -1,0 +1,151 @@
+presets:
+
+  transmissionrpc:
+    transmission:
+      host: localhost
+      port: 9091
+      username: chris
+      password: Password1
+      ratio: 0.1
+      addpaused: No
+  tv:
+    series:
+      - Sherlock
+      - Louis Theroux
+      - Beautiful Minds
+      - Homeland
+      - Derek
+      - The Big Bang Theory
+      - Boardwalk Empire
+      - Lifes Too Short
+      - Game of Thrones
+      - Treasure Island
+      - Spartacus Gods of the Arena
+      - Birdsong
+#      - BBC Horizon
+ 
+    # configuration of quality parameters
+    # -> I don't need the 720p files > 1 GB in size
+    # -> so I defined HDTV as my preferred quality
+    quality: hdtv
+    
+    # configuration of exists_series parameter
+    # -> check each accepted entry in the feed against these folders of series
+    # -> if the item exists in one of the folders, it wouldn't be dowloaded again.
+
+    exists_series:
+      - '/media/external-ma/TV2/Sherlock'
+      - '/media/external-ma/TV2/Louis Theroux'
+      - '/media/external-ma/TV2/Beautiful Minds'
+      - '/media/external-ma/TV2/Homeland'
+      - '/media/external-ma/TV2/Derek'
+      - '/media/external-ma/TV2/The Big Bang Theory/Season 5'
+      - '/media/external-ma/TV2/Boardwalk Empire/Season 2'
+      - '/media/external-ma/TV2/Lifes Too Short/Season 1'
+      - '/media/stuff/TV/Boardwalk Empire'
+      - '/media/external-ma/TV2/Game of Thrones/Season 2'
+      - '/media/external-ma/TV2/Game of Thrones/Season 1'
+      - '/media/external-ma/TV2/Treasure Island'
+      - '/media/external-ma/TV2/Spartacus Gods of the Arena'
+      - '/media/external-ma/TV2/Birdsong'
+#      - '/media/external-ma/TV2/BBC Horizon/2012'
+      - '/media/external-ma/TV2/Downton Abbey'
+      - '/media/external-ma/TV2/Elementary'
+
+feeds:
+  
+  Manual showRSS:
+    rss: http://showrss.karmorra.info/rss.php?user_id=105821&hd=0&proper=null&namespaces=true&magnets=true
+    preset:
+      - transmissionrpc
+      - tv
+
+  TVMonkey Sherlock:
+    rss: http://ezrss.it/search/index.php?show_name=Sherlock&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+ 
+  TVMonkey Louis Theroux:
+    rss: http://ezrss.it/search/index.php?show_name=Louis+Theroux&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+ 
+  TVMonkey Beautiful Minds:
+    rss: http://ezrss.it/search/index.php?show_name=Beautiful+Minds&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+ 
+  TVMonkey Homeland:
+    rss: http://ezrss.it/search/index.php?show_name=Homeland&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+ 
+  TVMonkey Derek:
+    rss: http://ezrss.it/search/index.php?show_name=Derek&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+ 
+  EZRSS The Big Bang Theory:
+    rss: http://www.ezrss.it/search/index.php?simple&show_name=Big+Bang+Theory&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Boardwalk Empire:
+    rss: http://www.ezrss.it/search/index.php?show_name=Boardwalk+Empire&date=&quality=HDTV&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Lifes Too Short:
+    rss: http://www.ezrss.it/search/index.php?show_name=Lifes+Too+Short&date=&quality=HDTV&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Game of Thrones:
+    rss: http://ezrss.it/search/index.php?show_name=Game+of+Thrones&date=&quality=HDTV&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Treasure Island:
+    rss: http://ezrss.it/search/index.php?show_name=Treasure+Island&date=&quality=&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Spartacus Gods of the Arena:
+    rss: http://www.ezrss.it/search/index.php?show_name=Spartacus+Gods+of+the+Arena&date=&quality=hdtv&quality_exact=true&release_group=&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+  EZRSS Birdsong:
+    rss: http://ezrss.it/search/index.php?simple&show_name=Birdsong&mode=rss
+    preset:
+      - transmissionrpc
+      - tv
+
+#  EZRSS Horizon:
+#    rss: http://ezrss.it/search/index.php?show_name=BBC+Horizon&show_name_exact=true&date=&quality=HDTV&quality_exact=true&release_group=&mode=rss
+#    preset:
+#      - transmissionrpc
+#      - tv
+
+#  IsoHunt Boardwalk Empire:
+#    rss: http://isohunt.com/js/rss/boardwalk+empire?iht=&noSL
+#    preset:
+#      - transmissionrpc
+#      - tv
+
+#  IsoHunt The Big Bang Theory:
+#    rss: http://isohunt.com/js/rss/the+big+bang+theory+HDTV?iht=
+#    preset:
+#      - transmissionrpc
+#      - tv

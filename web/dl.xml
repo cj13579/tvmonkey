@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torrent PUBLIC "-//bitTorrent//DTD torrent 0.1//EN" "http://xmlns.ezrss.it/0.1/dtd/">
+<rss version="2.0">
+	<channel>
+		<title>ezRSS - Search Results</title>
+		<ttl>15</ttl>
+		<link>http://ezrss.it/search/index.php?show_name=Downton+Abbey&amp;date=&amp;quality=hdtv&amp;quality_exact=true&amp;release_group=&amp;mode=rss</link>
+		<image>
+			<title>ezRSS - Search Results</title>
+			<url>http://ezrss.it/images/ezrssit.png</url>
+			<link>http://ezrss.it/search/index.php?show_name=Downton+Abbey&amp;date=&amp;quality=hdtv&amp;quality_exact=true&amp;release_group=&amp;mode=rss</link>
+		</image>
+		<description>Custom RSS feed based off search filters.</description>
+		<item>
+			<title><![CDATA[Downton Abbey Behind The Drama [HDTV - TLA]]]></title>
+			<link>http://torrent.zoink.it/Downton.Abbey.Behind.The.Drama.HDTV.XviD-TLA.[eztv].torrent</link>
+			<category><![CDATA[TV Show]]></category>
+			<pubDate>Mon, 26 Dec 2011 00:08:18 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey Behind The Drama; Episode Title: N/A; Episode Date: ]]></description>
+			<enclosure url="http://torrent.zoink.it/Downton.Abbey.Behind.The.Drama.HDTV.XviD-TLA.[eztv].torrent" length="366938112" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/32065/</comments>
+			<guid>http://eztv.it/ep/32065/downton-abbey-behind-the-drama-hdtv-xvid-tla/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.Behind.The.Drama.HDTV.XviD-TLA.[eztv].torrent]]></fileName>
+				<contentLength>366938112</contentLength>
+				<infoHash>C1ADF923467F0193B84A48DF38C3828CE46B0DB1</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:YGW7SI2GP4AZHOCKJDPTRQ4CRTSGWDNR&dn=Downton.Abbey.Behind.The.Drama.HDTV.XviD-TLA]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey Christmas Special 20x11 [HDTV - FOV]]]></title>
+			<link>http://torrent.zoink.it/Downton.Abbey.Christmas.Special.2011.HDTV.XviD-FoV.[eztv].torrent</link>
+			<category><![CDATA[TV Show]]></category>
+			<pubDate>Sun, 25 Dec 2011 21:14:46 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey Christmas Special; Episode Title: N/A; Season: 20; Episode: 11]]></description>
+			<enclosure url="http://torrent.zoink.it/Downton.Abbey.Christmas.Special.2011.HDTV.XviD-FoV.[eztv].torrent" length="735914896" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/32060/</comments>
+			<guid>http://eztv.it/ep/32060/downton-abbey-christmas-special-2011-hdtv-xvid-fov/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.Christmas.Special.2011.HDTV.XviD-FoV.[eztv].torrent]]></fileName>
+				<contentLength>735914896</contentLength>
+				<infoHash>2D0F839510BF7327160AA2B08260D93EC4C8541D</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:FUHYHFIQX5ZSOFQKUKYIEYGZH3CMQVA5&dn=Downton.Abbey.Christmas.Special.2011.HDTV.XviD-FoV]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey 2x8 [HDTV - RIVER]]]></title>
+			<link>http://www.kat.ph/torrents/downton-abbey-s02e08-hdtv-xvid-river-t5960715/</link>
+			<category domain="http://eztv.it/shows/540/downton-abbey/"><![CDATA[TV Show / Downton Abbey]]></category>
+			<pubDate>Sun, 06 Nov 2011 20:15:12 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey; Episode Title: N/A; Season: 2; Episode: 8]]></description>
+			<enclosure url="http://www.kat.ph/torrents/downton-abbey-s02e08-hdtv-xvid-river-t5960715/" length="575594716" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/30850/</comments>
+			<guid>http://eztv.it/ep/30850/downton-abbey-s02e08-hdtv-xvid-river/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.S02E08.HDTV.XviD-RiVER.[eztv].torrent]]></fileName>
+				<contentLength>575594716</contentLength>
+				<infoHash>E91CE726EBF06AA1289C95151B1897447011C51E</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:5EOOOJXL6BVKCKE4SUKRWGEXIRYBDRI6&dn=Downton.Abbey.S02E08.HDTV.XviD-RiVER]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey 2x7 [HDTV - RIVER]]]></title>
+			<link>http://torrent.zoink.it/Downton.Abbey.S02E07.HDTV.XviD-RiVER.[eztv].torrent</link>
+			<category domain="http://eztv.it/shows/540/downton-abbey/"><![CDATA[TV Show / Downton Abbey]]></category>
+			<pubDate>Sun, 30 Oct 2011 17:46:33 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey; Episode Title: N/A; Season: 2; Episode: 7]]></description>
+			<enclosure url="http://torrent.zoink.it/Downton.Abbey.S02E07.HDTV.XviD-RiVER.[eztv].torrent" length="578381234" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/30630/</comments>
+			<guid>http://eztv.it/ep/30630/downton-abbey-s02e07-hdtv-xvid-river/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.S02E07.HDTV.XviD-RiVER.[eztv].torrent]]></fileName>
+				<contentLength>578381234</contentLength>
+				<infoHash>FCA503AFA4AEA9386EE68FDB3C71977AD13A48DC</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:7SSQHL5EV2UTQ3XGR7NTY4MXPLITUSG4&dn=Downton.Abbey.S02E07.HDTV.XviD-RiVER]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey 2x6 [HDTV - FOV]]]></title>
+			<link>http://torrent.zoink.it/Downton.Abbey.2x06.HDTV.XviD-FoV.[eztv].torrent</link>
+			<category domain="http://eztv.it/shows/540/downton-abbey/"><![CDATA[TV Show / Downton Abbey]]></category>
+			<pubDate>Sun, 23 Oct 2011 16:56:41 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey; Episode Title: N/A; Season: 2; Episode: 6]]></description>
+			<enclosure url="http://torrent.zoink.it/Downton.Abbey.2x06.HDTV.XviD-FoV.[eztv].torrent" length="577638106" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/30461/</comments>
+			<guid>http://eztv.it/ep/30461/downton-abbey-2x06-hdtv-xvid-fov/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.2x06.HDTV.XviD-FoV.[eztv].torrent]]></fileName>
+				<contentLength>577638106</contentLength>
+				<infoHash>F69568CCB0B794E37E2666F5DCFED09823FA76EA</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:62KWRTFQW6KOG7RGM325Z7WQTAR7U5XK&dn=Downton.Abbey.2x06.HDTV.XviD-FoV]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey 2x4 [HDTV - FOV]]]></title>
+			<link>http://torrent.zoink.it/Downton.Abbey.2x04.HDTV.XviD-FoV.[eztv].torrent</link>
+			<category domain="http://eztv.it/shows/540/downton-abbey/"><![CDATA[TV Show / Downton Abbey]]></category>
+			<pubDate>Sun, 09 Oct 2011 20:25:44 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey; Episode Title: N/A; Season: 2; Episode: 4]]></description>
+			<enclosure url="http://torrent.zoink.it/Downton.Abbey.2x04.HDTV.XviD-FoV.[eztv].torrent" length="577252874" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/30089/</comments>
+			<guid>http://eztv.it/ep/30089/downton-abbey-2x04-hdtv-xvid-fov/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.2x04.HDTV.XviD-FoV.[eztv].torrent]]></fileName>
+				<contentLength>577252874</contentLength>
+				<infoHash>233A458D1F15CACB8246566A643989AAC70DC17D</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:EM5ELDI7CXFMXASGKZVGIOMJVLDQ3QL5&dn=Downton.Abbey.2x04.HDTV.XviD-FoV]]></magnetURI>
+			</torrent>
+		</item>
+		<item>
+			<title><![CDATA[Downton Abbey 2x3 [HDTV - TLA]]]></title>
+			<link>http://www.kat.ph/torrents/downton-abbey-s02e03-hdtv-xvid-tla-t5881842/</link>
+			<category domain="http://eztv.it/shows/540/downton-abbey/"><![CDATA[TV Show / Downton Abbey]]></category>
+			<pubDate>Sun, 02 Oct 2011 17:28:45 -0500</pubDate>
+			<description><![CDATA[Show Name: Downton Abbey; Episode Title: N/A; Season: 2; Episode: 3]]></description>
+			<enclosure url="http://www.kat.ph/torrents/downton-abbey-s02e03-hdtv-xvid-tla-t5881842/" length="576507904" type="application/x-bittorrent" />
+			<comments>http://eztv.it/forum/discuss/29880/</comments>
+			<guid>http://eztv.it/ep/29880/downton-abbey-s02e03-hdtv-xvid-tla/</guid>
+			<torrent xmlns="http://xmlns.ezrss.it/0.1/">
+				<fileName><![CDATA[Downton.Abbey.S02E03.HDTV.XviD-TLA.[eztv].torrent]]></fileName>
+				<contentLength>576507904</contentLength>
+				<infoHash>6D7ECD69BEE83D297B7C524AC086AA8B2535D8D7</infoHash>
+				<magnetURI><![CDATA[magnet:?xt=urn:btih:NV7M22N65A6SS634KJFMBBVKRMSTLWGX&dn=Downton.Abbey.S02E03.HDTV.XviD-TLA]]></magnetURI>
+			</torrent>
+		</item>
+	</channel>
+</rss>
