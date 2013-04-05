@@ -11,7 +11,7 @@ function xbmc_updater_cron ()
 if [[ -f maildo ]]; then
 	for LIB in $LIBRARY
 	do
-		wget --user=xbmc --password=0000 -t1 -T3 'http://$LIB:8080/xbmcCmds/xbmcHttp?command=ExecBuiltIn&parameter=XBMC.updatelibrary(video)' &> /dev/null
+		curl -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"VideoLibrary.Scan","id":"scan"}' http://$LIB/jsonrpc &> /dev/null
 		sleep 30
 	done
 fi
@@ -30,7 +30,7 @@ if [[ -f maildo ]]; then
 		for LIB in $LIBRARY
 		do
 			echo "Updating XBMC Library on $LIB..."
-    		wget --user=xbmc --password=0000 -t1 -T3 'http://$LIB:8080/xbmcCmds/xbmcHttp?command=ExecBuiltIn&parameter=XBMC.updatelibrary(video)' &> /dev/null
+		curl -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"VideoLibrary.Scan","id":"scan"}' http://$LIB/jsonrpc &> /dev/null
     		sleep 30
     	done
 		;;
@@ -50,7 +50,7 @@ if [[ -f maildo ]]; then
 		for LIB in $LIBRARY
 		do
 			echo "Updating XBMC Library on $LIB..."
-    		wget --user=xbmc --password=0000 -t1 -T3 'http://$LIB:8080/xbmcCmds/xbmcHttp?command=ExecBuiltIn&parameter=XBMC.updatelibrary(video)' &> /dev/null
+		curl -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"VideoLibrary.Scan","id":"scan"}' http://$LIB/jsonrpc &> /dev/null
     		sleep 10
     	done
 fi
