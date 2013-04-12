@@ -201,14 +201,14 @@ do
 	0[1-9])
 		i=$(echo $season | cut -c 2)			
 		if [ -d "$LOC/Season $i" ]; then
-			mv $DOWNLOAD "$LOC/Season $i";
+			mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 			x=$(echo $DOWNLOAD >> message.txt)
 			#Set a marker to show we have done something
 			maildo=$(echo '1' >> maildo)
 		else 
 			if [ ! -d "$LOC/Season $i" ]; then
 				mkdir "$LOC/Season $i";
-				mv $DOWNLOAD "$LOC/Season $i";
+				mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 				x=$(echo $DOWNLOAD >> message.txt)
 				#Set a marker to show we have done something
 				maildo=$(echo '1' >> maildo)
@@ -228,14 +228,14 @@ do
 	[1-9])
 		i=$(echo $season)			
 		if [ -d "$LOC/Season $i" ]; then
-			mv $DOWNLOAD "$LOC/Season $i";
+			mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 			x=$(echo $DOWNLOAD >> message.txt)
 			#Set a marker to show we have done something
 			maildo=$(echo '1' >> maildo)
 		else 
 			if [ ! -d "$LOC/Season $i" ]; then
 				mkdir "$LOC/Season $i";
-				mv $DOWNLOAD "$LOC/Season $i";
+				mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 				x=$(echo $DOWNLOAD >> message.txt)
 				#Set a marker to show we have done something
 				maildo=$(echo '1' >> maildo)
@@ -287,7 +287,7 @@ do
 		i=$(echo $season | cut -c 2)			
 		if [ -d "$LOC/Season $i" ]; then
 			echo "$DOWNLOAD is from $SHOW_N. Moving it to the Season $i folder..."
-			mv $DOWNLOAD "$LOC/Season $i";
+			mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 			x=$(echo $DOWNLOAD >> message.txt)
 			#Set a marker to show we have done something
 			maildo=$(echo '1' >> maildo)
@@ -295,7 +295,7 @@ do
 			if [ ! -d "$LOC/Season $i" ]; then
 				mkdir "$LOC/Season $i";
 				echo "$DOWNLOAD is from $SHOW_N. Moving it to the Season $i folder..."
-				mv $DOWNLOAD "$LOC/Season $i";
+				mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 				x=$(echo $DOWNLOAD >> message.txt)
 				#Set a marker to show we have done something
 				maildo=$(echo '1' >> maildo)
@@ -316,7 +316,7 @@ do
 		i=$(echo $season)			
 		if [ -d "$LOC/Season $i" ]; then
 			echo "$DOWNLOAD is from $SHOW_N. Moving it to the Season $i folder..."
-			mv $DOWNLOAD "$LOC/Season $i";
+			mv $DOWNLOAD "$LOC/Season $i" &> /dev/null;
 			x=$(echo $DOWNLOAD >> message.txt)
 			#Set a marker to show we have done something
 			maildo=$(echo '1' >> maildo)
@@ -324,7 +324,7 @@ do
 			if [ ! -d "$LOC/Season $i" ]; then
 				echo "$DOWNLOAD is from $SHOW_N. Moving it to the Season $i folder..."
 				mkdir "$LOC/Season $i";
-				mv $DOWNLOAD "$LOC/Season $i";
+				mv $DOWNLOAD "$LOC/Season $i" &> /dev/null ;
 				x=$(echo $DOWNLOAD >> message.txt)
 				#Set a marker to show we have done something
 				maildo=$(echo '1' >> maildo)
